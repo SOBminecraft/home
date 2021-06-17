@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+/*General*/
+
+h1{
+	font-size: 5em;
+	color: #F2F3F4;
+	font-family: Righteous;
+	padding: 12px 23px;
+	background: #2C3E50;
+}
+
+/*Mobile Menu*/
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #2980B9;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 1.3vh 4vw;
+  text-decoration: none;
+  font-size: 3.3em;
+  display: block;
+  font-family: sans-serif,Cinzel;
+
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #16A085;
+  display: block;
+  position: absolute;
+  font-size: 1.8em;
+  padding: 2.35vh 5vw;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #17202A;
+  color: #ffffff;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #34495E;
+  color: #F2F3F4;
+  font-family: Righteous !important;
+  padding: 60px 0
+}
+
+
+/*Style for Desktop/Largescreen Header*/
+
+#heading{
+	background: #34495E;
+	color: #F2F3F4;
+	font-family: Righteous,Zen Dots,Cinzel,cursive;
+	margin: 0;
+}
+
+
+/*Style - Vertical Side Nav Bar*/
+
+.vertical-menu {
+  width: 200px;
+  min-height: 100vh;
+  background: #E5E7E9; 
+}
+
+.vertical-menu a { 
+  color: black; 
+  display: block; 
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; 
+}
+
+.vertical-menu a.sidenavactive {
+  background-color: #16A085;
+  color: white;
+}
