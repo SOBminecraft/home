@@ -55,7 +55,7 @@ h1{
 }
 
 /* Style the active link (or home/logo) */
-.active {
+.h1active {
   background-color: #34495E;
   color: #F2F3F4;
   font-family: Righteous !important;
@@ -73,26 +73,59 @@ h1{
 }
 
 
-/*Style - Vertical Side Nav Bar*/
+/*Style - Nav Bar*/
 
-.vertical-menu {
-  width: 200px;
-  min-height: 100vh;
-  background: #E5E7E9; 
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
 }
 
-.vertical-menu a { 
-  color: black; 
-  display: block; 
-  padding: 12px;
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
-.vertical-menu a:hover {
-  background-color: #ccc; 
+li a:hover:not(.nvactive) {
+  background-color: #dddddd;
+  color: #000;
 }
 
-.vertical-menu a.sidenavactive {
-  background-color: #16A085;
+li a.nvactive {
   color: white;
+  background-color: #16A085;
 }
+
+/*typewriter*/
+
+#tw{
+	color: #000000;
+	font-family: Cinzel;
+	font-size: 1.6em;
+	margin: 10px 0 0 0;
+}
+
+
+/*Footer Style*/
+
+#footer{
+	font-family: sans-serif;
+	color: #000;
+	font-size: 1em;
+	background: #95A5A6;
+	margin: 0;
+	padding: 10px 0;
+	
+}
+

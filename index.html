@@ -10,7 +10,7 @@
 	<!--Main CSS-->
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body onload="typeWriter()">
 
 <!-- This is a mobile first website-->
 
@@ -18,7 +18,7 @@
 
 <!-- Top Navigation Menu -->
 <div class="topnav d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
-  <a href="#home" class="active">Shades Of Brown</a>
+  <a href="#home" class="h1active">Shades Of Brown</a>
   <!-- Navigation links (hidden by default) -->
   <div id="myLinks">
     <a href="#news">Home</a>
@@ -36,19 +36,31 @@
 <h1 id="heading" class="d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">Shades Of Brown</h1>
 
 
-<!-- Vertical Side Nav Bar for Desktops/Widescreens -->
+<!-- typewriter -->
 
-<div class="vertical-menu d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
-  <a href="#" class="sidenavactive">Home</a>
-  <a href="#">Blogs</a>
-  <a href="#">About</a>
-  <a href="#">Link 1</a>
-  <a href="#">Link 2</a>
-</div>
+<p id="tw" class="text-center"></p>
 
 
+<!-- Nav Bar for Desktops/Widescreens -->
 
 
+<ul class="d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
+  <li><a class="nvactive" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+
+
+
+
+<!-- Footer -->
+<footer>
+	<div>
+		<p id="footer" class="text-center">Copyrights &copy; Shades Of Brown Server - 2021.</p>
+	</div>
+</footer>
 
 <!-- Script for mobile menu -->
 
@@ -63,9 +75,23 @@
   		}
 	}
 
-
 </script>
 
+<!-- Script for Type-Writer -->
+
+<script>
+var i = 0;
+var txt = 'From Stone Age to Sky\'s the Limit';
+var speed = 70;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("tw").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
 
 
 </body>
