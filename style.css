@@ -115,8 +115,8 @@ li a.nvactive {
 #tw{
 	color: #000000;
 	font-family: Cinzel;
-	font-size: 1.8em;
-	margin: 10px 0 0 0;
+	font-size: 2em;
+	margin: 10px 0;
 }
 
 /*Content*/
@@ -154,6 +154,10 @@ hr{
 
 }
 
+.rules{
+	font-size: 2vh;
+	margin: 0 0 0 40px;
+}
 
 
 /*Footer Style*/
@@ -163,7 +167,7 @@ hr{
 	color: #fff;
 	font-size: 2vh;
 	background: #8E44AD;
-	margin: 8% 0 0 0;
+	margin: 40px 0 0 0;
 	padding: 30px 0;
 	
 }
