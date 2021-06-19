@@ -25,7 +25,8 @@
     <a href="../index.html">Home</a>
     <a href="rules.html">Rules</a>
     <a href="fms-cms.html">Farms and Claims</a>
-    <a href="#">Profiles/ Blogs</a>
+    <a href="pb.html">Profiles/ Blogs</a>
+    <a href="ce.html">Currency and Economy</a>
     <a href="#about">About</a>
   </div>
   <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
@@ -52,6 +53,7 @@
   <li><a href="rules.html">Rules</a></li>
   <li><a href="fms-cms.html">Farms and Claims</a></li>
   <li><a href="pb.html">Profiles/ Blogs</a></li>
+  <li><a href="ce.html">Currency and Economy</a></li>
   <li><a href="#about">About</a></li>
 </ul>
 
@@ -70,12 +72,12 @@
                                     <h4>Steve</h4><br>
                                     <p class="text-secondary mb-1 para">Minecraft Survivalist</p>
                                     <p class="font-size-sm para">(Base Area)</p>
-                                    <button class="btn btn-primary">Visit Blog</button>
-                                    <button class="btn btn-outline-primary">Message</button>
+                                    <button class="btn btn-primary" id="pb-btn">Visit Blog</button>&emsp;&emsp;&emsp;
+                                    <button class="btn btn-outline-primary" id="pb-btn">Message</button>
                                 </div>
                             </div>
                             <hr class="my-4">
-                            <p class="para">Silver Farms Claimed: <br>1.<br>2.<br>3.<br>4.<br><br>Platinum Farm Claimed:<br> <br><br>Total Farms Built:</p>
+                            <p class="para">Silver Farms Claimed: <br>1.<br>2.<br>3.<br><br>Platinum Farm Claimed:<br> <br><br>Total Farms Built:</p>
                         </div>
                     </div>
                 </div>
@@ -84,42 +86,26 @@
                         <div class="card-body">
                             <div class="row mb-3">
                                 <div class="col-sm-3">
-                                    <h6 class="mb-0">Full Name</h6>
+                                    <h6 class="mb-0" class="para">Full Name</h6>
                                 </div>
                                 <div class="col-sm-9 text-secondary">
-                                    <input type="text" class="form-control" value="John Doe">
+                                    <p class="para">Steve</p>
                                 </div>
                             </div>
                             <div class="row mb-3">
                                 <div class="col-sm-3">
-                                    <h6 class="mb-0">Email</h6>
+                                    <h6 class="mb-0" class="para">Email</h6>
                                 </div>
                                 <div class="col-sm-9 text-secondary">
-                                    <input type="text" class="form-control" value="john@example.com">
+                                    <p class="para">Steve@minecraft.com</p>
                                 </div>
                             </div>
                             <div class="row mb-3">
                                 <div class="col-sm-3">
-                                    <h6 class="mb-0">Phone</h6>
+                                    <h6 class="mb-0" class="para">Address</h6>
                                 </div>
                                 <div class="col-sm-9 text-secondary">
-                                    <input type="text" class="form-control" value="(239) 816-9029">
-                                </div>
-                            </div>
-                            <div class="row mb-3">
-                                <div class="col-sm-3">
-                                    <h6 class="mb-0">Mobile</h6>
-                                </div>
-                                <div class="col-sm-9 text-secondary">
-                                    <input type="text" class="form-control" value="(320) 380-4539">
-                                </div>
-                            </div>
-                            <div class="row mb-3">
-                                <div class="col-sm-3">
-                                    <h6 class="mb-0">Address</h6>
-                                </div>
-                                <div class="col-sm-9 text-secondary">
-                                    <input type="text" class="form-control" value="Bay Area, San Francisco, CA">
+                                    <p class="para">Sunflower Plains (5000,-2200)</p>
                                 </div>
                             </div>
                             <div class="row">
@@ -131,27 +117,27 @@
                         <div class="col-sm-12">
                             <div class="card">
                                 <div class="card-body">
-                                    <h5 class="d-flex align-items-center mb-3">Project Status</h5>
-                                    <p>Web Design</p>
-                                    <div class="progress mb-3" style="height: 5px">
-                                        <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="container">
+                                        <table class="table text-center table-striped table-borderless">
+                                            <thead class="table-dark">
+                                                <tr>
+                                                    <td scope="col">Notices/ Announcements</td>
+                                                </tr>
+                                            </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td scope="row">----</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td scope="row">----</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td scope="row">---</td>
+                                                    </tr>
+                                                </tbody>
+                                        </table>
                                     </div>
-                                    <p>Website Markup</p>
-                                    <div class="progress mb-3" style="height: 5px">
-                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 72%" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <p>One Page</p>
-                                    <div class="progress mb-3" style="height: 5px">
-                                        <div class="progress-bar bg-success" role="progressbar" style="width: 89%" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <p>Mobile Template</p>
-                                    <div class="progress mb-3" style="height: 5px">
-                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <p>Backend API</p>
-                                    <div class="progress" style="height: 5px">
-                                        <div class="progress-bar bg-info" role="progressbar" style="width: 66%" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>

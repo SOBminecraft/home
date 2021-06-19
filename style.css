@@ -176,6 +176,11 @@ table{
 	
 }
 
+.rules{
+	margin: auto;
+	font-size: 2.8vh;
+}
+
 /*fms-cms list style*/
 
 .list-group{
@@ -347,4 +352,9 @@ h4 {
 }
 .me-2 {
     margin-right: .5rem!important;
+}
+
+
+.icon{
+	width: 7vh;
 }
