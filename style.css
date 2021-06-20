@@ -368,3 +368,38 @@ h4 {
   width: 8vh;
   height: 7vh;
 }
+
+/*style for item table*/
+
+#itemInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 60%;
+  font-size: 2vh;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin: 12px 0 12px 20%;
+}
+
+#itemTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 3vh;
+  width: 80%;
+  margin: auto;
+}
+
+#itemTable th, #itemTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#itemTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#itemTable tr.header, #itemTable tr:hover {
+  background-color: #f1f1f1;
+}

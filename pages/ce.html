@@ -105,11 +105,897 @@
 
 <div class="card" style="width: 90%;margin: auto;">
   <div class="card-body text-center">
-    <span style="font-size: 5vh;font-weight: bold;">List: Maximum Selling Price</span>
+    <span style="font-size: 5vh;font-weight: bold;">List: Maximum Selling Points</span>
   </div>
 </div>
+<br><br>
+
+<!-- item list -->
 
 
+<input type="text" id="itemInput" onkeyup="itemFunction()" placeholder="🔍 Search for Items.." title="Type in a item name"><br><br><br>>
+
+<table id="itemTable">
+  <tr class="header">
+    <th style="width:64%;">Item Name</th>
+    <th style="width:6%;">No.</th>
+    <th style="width:30%;">MSP</th>
+  </tr>
+  <tr>
+    <td>Stone/Cobblestone</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Granite/Diorite/Andesite</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Logs (Any)</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Stems (Warped or Crimson)</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Lava (Bucket)</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Sand/ Red Sand/ Gravel</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Leaves (Any)</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Sponge</td>
+    <td>6</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Glass</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Stained Glass (Any Color)</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Tinted Glass (Any Color)</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dye (Any)</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Stone</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dispenser</td>
+    <td>32</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Sand/ Red Sand: SandStone/Chised SandStone/Smooth SandStone</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Rails/ Powered Rails</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Pistons</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Sticky Pistons</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Cobwebs</td>
+    <td>16</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dead Bush</td>
+    <td>16</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Saplings (Any)</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Grass (Tall Grass)/ Fern</td>
+    <td>32</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Wool</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Flower (Any)</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Stone</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Mushroom (Any)</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Mushroom Blocks (Any)</td>
+    <td>32</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Slabs (Any Wood or Stone Varients, Overworld)</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Slabs (Any, Nether)</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Gold Blocks</td>
+    <td>32</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Diamond Blocks</td>
+    <td>16</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Emerald Blocks</td>
+    <td>32</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Lapis Blocks</td>
+    <td>8</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Quartz Blocks</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Quartz</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Quartz Blocks</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Netherbricks</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Bricks</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>TNT</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Bookshelves</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Mossy Cobblestone/ StoneBricks</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Obsidian</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Torches</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Chests</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Redstone Dust</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Redstone Block</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dropper</td>
+    <td>32</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Repeater</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Comparator</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Seeds (Any)</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Signs</td>
+    <td>16</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Ladders</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Snow Blocks</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Snow Layers</td>
+    <td>16</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Snow Balls</td>
+    <td>16</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Ice</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Packed Ice</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Blue Ice</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Powdered Snow</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Amethyst Blocks</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Amethyst Shards</td>
+    <td>16</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Calcite</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deepslate</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Cobbled Deepslate</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deepslate Ores (Any)</td>
+    <td>16</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Amethyst Crystals</td>
+    <td>16</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Cactus</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Clay</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Sugar Canes</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Pumpkin</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Glow Berries</td>
+    <td>32</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Soul Sand</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Soul Soil</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Bone</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Bone Blocks</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Netherrack</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Glowstone Dust</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Glowstone</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Cracked/ Infested Stone/ Bricks</td>
+    <td>32</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Melon (Block)</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Vines</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Netherwart</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Iron Ingot</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Copper Ingot</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Gold Ingot</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Lapis Lazuli</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Emeralds</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Raw Ores (Any)</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Endstone</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Redstone Lamps</td>
+    <td>32</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Cocoa Seeds</td>
+    <td>32</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Tripwire Hook</td>
+    <td>32</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>String</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Gunpowder</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Glass Bottles</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Vines (Nether Varients)</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Ores (Nether Varients)</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Glided Blackstone</td>
+    <td>16</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Crying Obsidian</td>
+    <td>32</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Music Discs</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Bottle o' Enchanting</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Tripped/ Glow Arrows</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Ancient Debris/ Nethrite Scrap</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Beacon</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Potatoes</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Carrots</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Beetroot</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Azalea Sapling</td>
+    <td>16</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Azalea Leaves</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Stalagmites</td>
+    <td>16</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dripstone</td>
+    <td>16</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Drip Leaves</td>
+    <td>16</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Moss</td>
+    <td>32</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Mob Heads</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Daylight Sensors</td>
+    <td>8</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Hoppers</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Hardened Clay (Any)</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Terracota (Any)</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Slime Balls</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Slime Blocks</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Honey Bottles</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Honey Combs</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Honey Blocks</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Prismarine Shards</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Prismarine Crystals</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Prismarine</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Prismarine Bricks</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dark Prismarine</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Sea Lantern</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Sea Pickle</td>
+    <td>16</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Banners (Any)</td>
+    <td>16</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Carpets</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>End Rods</td>
+    <td>32</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Chorus Fruit/ Flower</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Purpur Blocks</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Endstone Bricks</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Magma Blocks</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Magma Cream</td>
+    <td>32</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Observer</td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Shulker Shells</td>
+    <td>2</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Shulker Box</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>64</td>
+    <td></td>
+  </tr>
+  
+</table>
+
+<!-- Search script -->
+
+<script>
+function itemFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("itemInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("itemTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
 
 
 
