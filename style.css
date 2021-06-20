@@ -355,6 +355,16 @@ h4 {
 }
 
 
-.icon{
+.cur-icon{
 	width: 7vh;
+  height: 7vh;
+}
+
+#icon-txt{
+  font-size: 3vh;
+}
+
+#dia-icon{
+  width: 8vh;
+  height: 7vh;
 }
