@@ -1,3 +1,3 @@
 # Home
-Home of Shades of Brown Server
+Shades of Brown Server(discontinued)
 https://sobminecraft.github.io/home
